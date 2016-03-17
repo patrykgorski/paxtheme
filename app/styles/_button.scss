@@ -1,0 +1,47 @@
+.button-pax{
+	display: inline-block;
+	width: 240px;
+	height:60px;
+	color:#fff;
+	outline: none;
+	@include roboto(400, 18px);
+	line-height: 60px;
+	text-align: center;
+	border:{
+		top-left-radius:30px;
+		bottom-left-radius:30px;
+		top-right-radius:30px;
+		bottom-right-radius:30px;
+	}
+	&:hover{
+		background-color:red;
+	}
+	transition:all .1s linear;
+	@media (max-width: 665px){
+		width: 200px;
+		height:50px;
+		line-height: 50px;
+	}
+}
+
+.button-pax-red{
+	background-color: $redButton;
+	&:hover{
+		background-color:$redButton;
+	}
+}
+
+.button-pax-blue{
+	background-color: $bluetext;
+	&:hover{
+		background-color:$bluetext;
+	}
+}
+
+.button-pax-white{
+	background-color: #fff;
+	color:$bluetext;
+	&:hover{
+		background-color:#fff;
+	}
+}

@@ -1,0 +1,36 @@
+.work{
+	min-height:700px;
+	background-color: $bluetext;
+	.work-box{
+		.open-text-box{
+			color:#fff;
+			h4{
+				color:$lbludetext;
+			}
+		}
+		.work-how{
+			.work-img{
+				text-align: center;
+				.img-box{
+					.text-row{
+						@include roboto(400, 18px);
+						color:#fff;
+						div{
+							opacity: 0;
+						}
+					}
+				}
+			}
+			.work-info{
+				color:#fff;
+				@include roboto(400, 18px);
+				p{
+					padding: {
+						bottom:20px;
+					}
+					line-height: 28px;
+				}
+			}
+		}
+	}
+}

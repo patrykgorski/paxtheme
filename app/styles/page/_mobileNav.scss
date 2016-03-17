@@ -1,0 +1,35 @@
+.nav-mobile-box{
+	background-color: $bluetext;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: -100%;
+	z-index: 100;
+	transition:all 0.5s cubic-bezier(0.63, 0.06, 0.18, 0.99);
+	&.active{
+		top:0;
+	}
+	ul{
+		position: relative;
+		top:40px;
+		li{
+			//display: none;
+			opacity: 0;
+			&:hover{
+				background-color: #fff;
+				a{color: $bluetext}
+			}
+			@include roboto(300, 24px);
+			a{
+				color:#fff;
+				display: block;
+				width: 100%;
+				text-align: center;
+				padding: {
+					top:10px;
+					bottom:10px;
+				}
+			}
+		}
+	}
+}

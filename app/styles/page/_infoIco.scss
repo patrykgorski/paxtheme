@@ -1,0 +1,40 @@
+.info-ico{
+	padding-top: 40px;
+	background-color: $backgrayopen;
+}
+
+.info-box{
+	.info-content{
+		opacity: 0;
+		text-align: center;
+		color:$graytext;
+		padding-bottom: 40px;
+		img{
+			padding-bottom: 30px;
+		}
+		h3{
+			@include roboto(700, 30px);
+			padding: {
+				top:10px;
+				bottom:10px;
+			}
+		}
+		p{
+			@include roboto(300, 18px);
+			line-height: 30px;
+		}
+		@media (max-width: 665px){
+			h3{
+				@include roboto(700, 24px);
+				padding: {
+					top:10px;
+					bottom:10px;
+				}
+			}
+			p{
+				@include roboto(300, 16px);
+				line-height: 30px;
+			}
+		}
+	}
+}

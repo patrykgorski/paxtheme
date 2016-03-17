@@ -1,0 +1,7 @@
+@mixin roboto($weight, $size){
+	font: {
+		family: 'Roboto', sans-serif;
+		size: $size;
+		weight:$weight;
+	}
+}

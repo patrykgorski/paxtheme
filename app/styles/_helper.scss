@@ -1,0 +1,74 @@
+body{
+	background-color: $backgrayopen;
+	//overflow: hidden;
+}
+
+.main-container{
+	width: 1200px;
+	margin: auto;
+	@media (max-width: 1200px){
+		width: 90%;
+	}
+}
+
+.h-ma{
+	margin:auto;
+}
+
+.h-tac{
+	text-align:center;
+}
+
+.h-tal{
+	text-align:left;
+}
+
+.h-tar{
+	text-align:right;
+}
+
+.h-dib{
+	display:inline-block;
+}
+
+.facebook{
+	color:#3D569B;
+	border-color: #3D569B;
+}
+
+.twitter{
+	color:#00A9E5;
+	border-color: #00A9E5;
+}
+
+.padding-100{
+	padding: {
+		top:100px;
+		bottom: 100px;
+	}
+}
+
+.padding-60{
+	padding: {
+		top:60px;
+		bottom: 60px;
+	}
+}
+
+.padding-40{
+	padding: {
+		top:40px;
+		bottom: 40px;
+	}
+}
+
+.padding-20{
+	padding: {
+		top:20px;
+		bottom: 20px;
+	}
+}
+
+a{
+	text-decoration: none;
+}
